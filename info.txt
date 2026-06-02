@@ -1,0 +1,153 @@
+프로젝트 변수 및 활용 데이터 정리
+
+1. 소멸위험 지표
+
+- 변수
+* 인구 감소율
+* 순이동 증감률
+
+- 목적
+지역이 지속적으로 쇠퇴·인구감소 중인 지역인지 확인하기 위함.
+관광 활성화 및 빈집 활용이 필요한 지역을 우선적으로 선별하기 위해 사용.
+
+- 활용 데이터 (*국내이동통계 활용, *최근 5년 기준 순이동 전년 대비 증감률)
+KOSIS
+https://kosis.kr/statHtml/statHtml.do?list_id=A_1&obj_var_id=&seqNo=&tblId=DT_1B26001_A01&vw_cd=MT_ZTITLE&orgId=101&path=%252FstatisticsList%252FstatisticsListIndex.do&conn_path=MT_ZTITLE&itm_id=&lang_mode=ko&scrId=
+
+- 활용 방향
+1)최근 5년간 인구 감소가 지속되는 지역 탐색
+2)지방소멸 위험 지역 우선 선별
+
+---
+
+2. 관광 수요 데이터
+
+- 변수
+* 관광객 수
+* 외지인 방문자 수
+* 방문자 체류 특성
+
+- 목적
+실제 관광 수요가 존재하는 지역인지 확인하기 위함.
+단순히 빈집이 많은 지역이 아니라, 실제 방문 수요가 존재해야 숙박 전환 가능성이 높음.
+
+- 활용 데이터 (*지역별 외지인 방문자 수, *방문자 체류 특성)
+한국관광 데이터랩
+https://datalab.visitkorea.or.kr/datalab/portal/loc/getLocalDataForm.do
+
+- 활용 방향
+* 관광 수요가 높은 지역 선별
+* 체류형 관광 가능성 확인
+
+- 보조 데이터(선택)
+* 성·연령별 유동인구 데이터
+* 최근 5년 기준 2030 유동인구 중심 분석 가능
+국가데이터플랫폼
+https://data.mods.go.kr/sbchome/serviceData/svcOfrDataList.do?curMenuNo=OPT_21_01_02_0
+
+3. 관광 소비 데이터
+
+- 변수
+* 음식점 소비
+* 카페 소비
+* 식음료업 소비
+
+- 목적
+* 관광객이 실제 지역 내에서 소비 활동을 하는지 확인하기 위함.
+
+- 활용 데이터 (*관광지출액, *업종별 관광 소비 데이터)
+한국관광 데이터랩
+https://datalab.visitkorea.or.kr/datalab/portal/loc/getLocalDataForm.do
+
+- 활용 방향
+* 관광 소비 활성 지역 선별
+* 체류형·감성형 관광 소비 패턴 분석
+
+---
+
+4. 빈집 데이터
+
+- 변수
+* 지역별 빈집 수
+* 빈집 비율
+* 빈집 밀도
+
+- 목적
+숙소로 전환 가능한 유휴 공간이 충분히 존재하는지 확인하기 위함.
+
+- 활용 데이터 (미거주주택(빈집) 비율)
+KOSIS 
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL202005&vw_cd=MT_GTITLE01&list_id=107&scrId=&seqNo=&lang_mode=ko&obj_var_id=&itm_id=&conn_path=MT_GTITLE01&path=%252FstatisticsList%252FstatisticsListIndex.do
+
+- 활용 방향
+
+* 빈집 비율이 높은 지역 선별
+* 숙박 전환 가능성 분석
+
+- 추가 활용 가능 데이터
+* 노후주택 비율
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1YL202004&vw_cd=MT_GTITLE01&list_id=107&scrId=&seqNo=&lang_mode=ko&obj_var_id=&itm_id=&conn_path=MT_GTITLE01&path=%252FstatisticsList%252FstatisticsListIndex.do
+→ 필요 시 종합 지표 산정에 활용 가능
+
+5. 숙소 공급 데이터
+
+- 변수
+* 숙박업소 수
+* 객실 수
+
+- 목적
+관광 수요 대비 숙박 공급이 충분한지 확인하기 위함.
+
+- 핵심 지표
+“숙박 공급 압박 지수”
+관광객 수 / 객실 수 값 값이 높을수록:
+
+* 숙소 부족 가능성 증가
+* 체류형 관광 한계 가능성 존재
+
+- 활용 데이터 (*지역별 숙박시설 수, *객실 수)
+한국관광 데이터랩 
+https://datalab.visitkorea.or.kr/datalab/portal/bzm/getBzmanLodgForm.do?utm_source=chatgpt.com
+
+- 활용 방향
+빈집 데이터와 결합하여 “숙소 부족 + 빈집 존재” 지역 도출
+
+
+6. 체류 특성 데이터 (선택 변수)
+
+- 변수
+* 평균 체류시간
+* 숙박 비율
+
+- 목적
+관광객 유입은 많지만 숙박 비율이 낮은 경우, 숙박 인프라 부족 가능성을 확인하기 위함.
+
+- 활용 데이터 *방문자 체류 특성
+한국관광 데이터랩 
+https://datalab.visitkorea.or.kr/datalab/portal/loc/getLocalDataForm.do 
+- 활용 방향
+* 당일치기 관광지 여부 분석
+* 체류형 관광 가능성 분석
+
+
+
+
+최종 분석 방향
+
+본 프로젝트는 다음 6가지 변수를 종합적으로 활용하여:
+* 소멸위험지역 중
+* 관광 수요가 존재하며
+* 소비 활동이 활발하고
+* 빈집이 많으면서
+* 숙박 공급이 부족한 지역
+
+을 도출하고,
+
+이를 기반으로:
+
+> 빈집을 활용한 체류형 숙박 모델 및 지역 관광 활성화 방안 을 제안하는 것을 목표로 한다.
+
+
+
+
+
